@@ -1,5 +1,15 @@
-<h2><%= @task.title %></h2>
-<p><%= @task.details %></p>
-<p><%= @task.completed %></p>
+<div class="show">
+  <div>
+   <h2><%= @task.title %></h2>
+  </div>
+
+  <div>
+    <p><%= @task.details %></p>
+  </div>
+
+  <div>
+    <p><%= @task.completed %></p>
+  </div>
 
 <%= link_to "Back to tasks", '/index', class: "link" %>
+</div>

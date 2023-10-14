@@ -2,7 +2,8 @@
   <h1 class="text-center mb-4">Task List</h1>
   <ul class="list-group">
     <% @tasks.each do |task| %>
-      <li class="list-group-item d-flex justify-content-between align-items-center">
+      <li class="list-group-item d-flex justify-content-between">
+        <input type="checkbox">
         <%= task.title %>
         <span>
           <%= link_to 'Edit', edit_task_path(task), class: 'btn btn-info btn-sm me-2' %>

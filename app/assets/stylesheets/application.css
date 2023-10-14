@@ -29,3 +29,8 @@ h1 {
   margin: 25px;
   padding: 15px;
 }
+
+.show {
+  border: solid;
+  text-align: center;
+}
