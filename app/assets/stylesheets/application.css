@@ -13,3 +13,19 @@
  *= require_tree .
  *= require_self
  */
+h1 {
+  text-align: center;
+  border: solid;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 25px;
+  padding: 15px;
+}
+
+.list {
+  text-decoration: none;
+  list-style-type: none;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 25px;
+  padding: 15px;
+}
